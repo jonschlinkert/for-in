@@ -1,6 +1,6 @@
 # for-in [![NPM version](https://badge.fury.io/js/for-in.svg)](http://badge.fury.io/js/for-in)
 
-> Returns true if an object has any of the specified keys.
+> Iterate over the own and inherited enumerable properties of an objecte, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`.
 
 ## Install
 #### Install with [npm](npmjs.org):
