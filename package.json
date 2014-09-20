@@ -1,0 +1,57 @@
+{
+  "name": "for-in",
+  "description": "Iterate over the enumerable properties of an object, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/for-in",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/for-in.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/for-in/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/for-in/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.0.4"
+  },
+  "keywords": [
+    "find",
+    "for-in",
+    "for-own",
+    "has",
+    "has-own",
+    "hasOwn",
+    "javascript",
+    "js",
+    "key",
+    "keys",
+    "loop",
+    "node.js",
+    "object",
+    "own",
+    "properties",
+    "property",
+    "util",
+    "utilities",
+    "utility",
+    "utils",
+    "value"
+  ]
+}
