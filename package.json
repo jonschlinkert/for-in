@@ -3,21 +3,12 @@
   "description": "Iterate over the own and inherited enumerable properties of an objecte, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`. JavaScript/Node.js",
   "version": "0.1.4",
   "homepage": "https://github.com/jonschlinkert/for-in",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/for-in.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/for-in",
   "bugs": {
     "url": "https://github.com/jonschlinkert/for-in/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/for-in/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js"
   ],
