@@ -20,8 +20,9 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "^4.0.4"
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
   },
   "keywords": [
     "for-in",
@@ -34,5 +35,22 @@
     "object",
     "own",
     "value"
-  ]
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
