@@ -1,7 +1,7 @@
 'use strict';
 
 require('mocha');
-var should = require('should');
+var assert = require('assert');
 var forIn = require('./');
 
 describe('.forIn()', function() {
@@ -11,13 +11,13 @@ describe('.forIn()', function() {
     var keys = [];
 
     forIn(obj, function(value, key, o) {
-      o.should.eql(obj);
+      assert.deepEqual(o, obj);
       keys.push(key);
       values.push(value);
     });
 
-    keys.should.eql(['a', 'b', 'c']);
-    values.should.eql(['foo', 'bar', 'baz']);
+    assert.deepEqual(keys, ['a', 'b', 'c']);
+    assert.deepEqual(values, ['foo', 'bar', 'baz']);
   });
 
   it('should break the loop early if `false` is returned.', function() {
@@ -33,7 +33,7 @@ describe('.forIn()', function() {
       values.push(value);
     });
 
-    keys.should.eql(['a']);
-    values.should.eql(['foo']);
+    assert.deepEqual(keys, ['a']);
+    assert.deepEqual(values, ['foo']);
   });
 });

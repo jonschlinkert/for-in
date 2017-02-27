@@ -4,6 +4,10 @@
   "version": "0.1.6",
   "homepage": "https://github.com/jonschlinkert/for-in",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Paul Irish (http://paulirish.com)"
+  ],
   "repository": "jonschlinkert/for-in",
   "bugs": {
     "url": "https://github.com/jonschlinkert/for-in/issues"
@@ -19,17 +23,15 @@
   "scripts": {
     "test": "mocha"
   },
-  "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "^2.4.5",
-    "should": "^8.3.0"
-  },
+
   "keywords": [
+    "for",
     "for-in",
     "for-own",
     "has",
     "has-own",
     "hasOwn",
+    "in",
     "key",
     "keys",
     "object",
