@@ -33,6 +33,12 @@ console.log(values);
 
 ## About
 
+### Related projects
+
+* [arr-flatten](https://www.npmjs.com/package/arr-flatten): Recursively flatten an array or arrays. This is the fastest implementation of array flatten. | [homepage](https://github.com/jonschlinkert/arr-flatten)
+* [collection-map](https://www.npmjs.com/package/collection-map): Returns an array of mapped values from an array or object. | [homepage](https://github.com/jonschlinkert/collection-map)
+* [for-own](https://www.npmjs.com/package/for-own): Iterate over the own enumerable properties of an object, and return an object with properties… [more](https://github.com/jonschlinkert/for-own) | [homepage](https://github.com/jonschlinkert/for-own)
+
 ### Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).

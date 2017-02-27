@@ -23,7 +23,6 @@
   "scripts": {
     "test": "mocha"
   },
-
   "keywords": [
     "for",
     "for-in",
@@ -48,6 +47,13 @@
     "plugins": [
       "gulp-format-md"
     ],
+    "related": {
+      "list": [
+        "arr-flatten",
+        "for-own",
+        "collection-map"
+      ]
+    },
     "reflinks": [
       "verb"
     ],
