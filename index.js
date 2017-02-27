@@ -9,7 +9,7 @@
 
 module.exports = function forIn(obj, fn, thisArg) {
   for (var key in obj) {
-    if (fn.call(thisArg, obj[key], key, o) === false) {
+    if (fn.call(thisArg, obj[key], key, obj) === false) {
       break;
     }
   }
