@@ -23,6 +23,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
   "keywords": [
     "for",
     "for-in",
@@ -50,8 +54,8 @@
     "related": {
       "list": [
         "arr-flatten",
-        "for-own",
-        "collection-map"
+        "collection-map",
+        "for-own"
       ]
     },
     "reflinks": [
